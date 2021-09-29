@@ -1,0 +1,30 @@
+body {
+  background-color: bisque;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    grid-gap : 10px;
+}
+
+.grid-container > .item{
+    background-color:black;
+    color:antiquewhite;
+    padding:30px;
+}
+
+.item1{
+    grid-column-start: 1;
+    grid-column-end:3;
+}
+
+.item6{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.item5{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
